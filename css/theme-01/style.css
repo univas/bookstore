@@ -7,3 +7,33 @@
 body {
     background: #B4C5E1;
 }
+
+h1 {
+    padding: 5px;
+}
+
+.add-new {
+    display: block;
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 10px;
+}
+
+table {
+    background: #fff;
+    width: 95%;
+    margin: 5px auto;
+}
+
+th, h1 {
+    background-color: #1D3980;
+    color: #fff;
+}
+
+th, td {
+   padding: 5px; 
+}
+
+tr:hover td {
+    background-color: #ECFBD4;
+}
