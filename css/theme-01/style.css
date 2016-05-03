@@ -1,0 +1,108 @@
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Geral */
+body {
+    background: #B4C5E1;
+}
+
+h1 {
+    padding: 5px;
+}
+
+.add-new {
+    display: block;
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 10px;
+}
+
+table {
+    background: #fff;
+    width: 95%;
+    margin: 5px auto;
+}
+
+th, h1 {
+    background-color: #1D3980;
+    color: #fff;
+}
+
+th, td {
+   padding: 5px; 
+}
+
+tr:hover td {
+    background-color: #ECFBD4;
+}
+
+/* Book form */
+form {
+    width: 650px;
+    margin: 20px auto;
+    padding: 5px;    
+}
+
+div > label {
+    display: block;
+}
+
+input {
+    height: 20px;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+button {
+    width: 200px;
+}
+
+.colunm-1 {
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px 0;
+}
+
+.form-buttons {
+    clear: left;
+    text-align: center;
+}
+
+/* Book details */
+.book-picture {
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+}
+
+.book-picture img {
+    width: 200px;
+    height: 300px;
+}
+
+.book-picture ul {
+    width: 180px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.book-picture li {
+    font-size: 1.5em;
+}
+
+.book-description {
+    background: #fff;
+    margin: 10px;
+}
+
+.book-description p {
+    text-align: justify;
+    padding: 20px;
+}
